@@ -21,7 +21,7 @@ const firebaseConfig = {
   messagingSenderId: VITE_FIREBASE_MESSAGING_SENDER_ID,
   appId: VITE_FIREBASE_APP_ID,
 };
-
+console.log(VITE_FIREBASE_DATABASE_URL)
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const database = getDatabase(app);
